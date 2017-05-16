@@ -9,7 +9,7 @@ AWS.config.update({
 });
 
 app.get('/', function (req, res) {
-	res.send('Wow');
+	res.send('Wow j\'ai modifié un truc...');
 });
 
 app.get('/students', function (req, res) {
